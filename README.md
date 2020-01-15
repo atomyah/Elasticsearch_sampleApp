@@ -1,7 +1,8 @@
 #How to use
 
-###install bits
-#####ElasticSearch Install (to ubuntu 18.04)
+###installation (on ubuntu 18.04)
+
+#####ElasticSearch Install
 
 install Java
 $ sudo apt install openjdk-11-jdk
@@ -96,6 +97,13 @@ server.py
 
 
 
-
+###How to boot application
+$ pipenv run python server.py
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 159-754-361
 
 
